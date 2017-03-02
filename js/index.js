@@ -146,7 +146,8 @@
 		costChange();
 		if(!$(".shop-cart").children().hasClass(".shop-cart-list")){
 			$(".shop-cart").find("h1").remove();
-			$(".shop-cart").prepend("<h1>购物车空空如也，快去挑选物品吧<h1>")
+			$(".shop-cart").prepend("<h1>购物车空空如也，快去挑选物品吧<h1>");
+			$(".shop-check-all").find("#number").html(0);
 		}
 	})
 	//购物车结算按钮
